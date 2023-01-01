@@ -1,16 +1,8 @@
 # flutter_pocketbase_auth
+PocketBase is an open source backend consisting of embedded database (SQLite) with realtime subscriptions, built-in auth management, convenient dashboard UI and simple REST-ish API.
 
-A new Flutter project.
+In this project I use ngrok to handle the localhost. set your pocketbase to ngrok url
 
-## Getting Started
+![Screen Shot 2023-01-01 at 16 00 14](https://user-images.githubusercontent.com/88265749/210164426-bedbdcad-4887-488c-ba4e-4ec98ad417ca.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+``` PocketBase pb = PocketBase('https://20fe-120-188-84-163.ap.ngrok.io');```
